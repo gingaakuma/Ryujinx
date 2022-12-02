@@ -150,8 +150,8 @@ namespace Ryujinx.Graphics.Vulkan
             MemoryBarrier memoryBarrier = new MemoryBarrier()
             {
                 SType = StructureType.MemoryBarrier,
-                SrcAccessMask = AccessFlags.AccessMemoryReadBit | AccessFlags.AccessMemoryWriteBit,
-                DstAccessMask = AccessFlags.AccessMemoryReadBit | AccessFlags.AccessMemoryWriteBit
+                SrcAccessMask = AccessFlags.MemoryReadBit | AccessFlags.MemoryWriteBit,
+                DstAccessMask = AccessFlags.MemoryReadBit | AccessFlags.MemoryWriteBit
             };
 
             Gd.Api.CmdPipelineBarrier(

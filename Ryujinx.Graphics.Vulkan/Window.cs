@@ -316,7 +316,7 @@ namespace Ryujinx.Graphics.Vulkan
                     _gd.CommandBufferPool.Return(
                         cbs,
                         null,
-                        stackalloc[] { PipelineStageFlags.PipelineStageColorAttachmentOutputBit },
+                        stackalloc[] { PipelineStageFlags.ColorAttachmentOutputBit },
                         null);
                     _gd.FlushAllCommands();
                     cbs.GetFence().Wait();
