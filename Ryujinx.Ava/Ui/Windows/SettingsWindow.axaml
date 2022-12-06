@@ -710,7 +710,7 @@
                                           ToolTip.Tip="{locale:Locale GraphicsAATooltip}"
                                           SelectedIndex="{Binding AntiAliasingEffect}">
                                     <ComboBoxItem>
-                                        <TextBlock Text="{locale:Locale SettingsTabLoggingOpenglLogLevelNone}" />
+                                        <TextBlock Text="{locale:Locale SettingsTabLoggingGraphicsBackendLogLevelNone}" />
                                     </ComboBoxItem>
                                     <ComboBoxItem>
                                         <TextBlock Text="FXAA" />
